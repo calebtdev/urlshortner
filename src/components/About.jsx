@@ -22,7 +22,7 @@ const Hero = () => {
             href="#"
             className="bg-blue-400  py-1 md:py-3 px-3 md:px-6 text-white rounded-2xl"
           >
-            Get Started
+            Get Started.
           </a>
         </div>
       </div>
