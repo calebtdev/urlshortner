@@ -1,0 +1,19 @@
+@import "tailwindcss";
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  background-color: rgb(237, 238, 238);
+}
+/* index.css */
+.shorten-bg {
+  background-image: url("/assets/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .shorten-bg {
+    background-image: url("/assets/bg-shorten-desktop.svg");
+  }
+}
