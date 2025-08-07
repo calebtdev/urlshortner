@@ -4,6 +4,7 @@ import About from "../components/About";
 import Shortlink from "../components/Shortlink";
 import AdvanceStat from "../components/AdvanceStat";
 import Boost from "../components/Boost";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Shortlink />
       <AdvanceStat />
       <Boost />
+      <Footer />
     </>
   );
 };
