@@ -8,7 +8,7 @@ import instagram from "../assets/icon-instagram.svg";
 const Footer = () => {
   return (
     <section className="py-10 bg-black">
-      <div className="max-w-[1000px] mx-auto flex flex-col items-center md:items-start md:flex-row gap-10 justify-between">
+      <div className="max-w-[1000px] mx-auto flex flex-col items-center md:items-start md:flex-row gap-10 md:px-12 justify-between">
         <div>
           <a href="#">
             <img src={logo} alt="" className="filter brightness-0  invert" />

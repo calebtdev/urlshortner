@@ -5,7 +5,7 @@ import aboutImage from "../assets/illustration-working.svg";
 const Hero = () => {
   return (
     // Main section with white background, responsive padding, and maximum width
-    <section className="bg-white max-w-[1440px] py-[3rem] pb-[10rem] md:pb-[8rem] mx-auto overflow-hidden">
+    <section className="bg-white max-w-[1440px] py-[3rem] md:px-12 pb-[10rem] md:pb-[8rem] mx-auto overflow-hidden">
       {/* Grid container for layout with two columns on medium screens and above */}
       <div className="grid md:grid-cols-2 bg-white max-w-[1000px] px-6 items-center md:px-0 mx-auto gap-5">
         {/* Illustration image, ordered second on larger screens for layout purposes */}
