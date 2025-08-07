@@ -50,7 +50,7 @@ const Header = () => {
         {/* mobile nav  */}
         {menuClick && (
           <nav className="absolute max-w-[375px] mt-[30rem] left-1/2 flex flex-col transform -translate-x-1/2 md:hidden bg-purple-950 w-[80%] text-center text-white rounded-lg gap-[3rem] py-8 z-1">
-            <ul className="flex flex-col gap-[2rem] border-b-[0.1px] border-gray-500 pb-[3rem] mx-4">
+            <ul className="flex flex-col gap-[2rem] border-b-[0.1px] border-gray-500 pb-10 mx-4">
               <li>
                 <a href="#">Features</a>
               </li>

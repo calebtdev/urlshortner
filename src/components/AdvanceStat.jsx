@@ -3,7 +3,9 @@ import brandImg from "../assets/icon-brand-recognition.svg";
 import detailedImg from "../assets/icon-detailed-records.svg";
 import customImg from "../assets/icon-fully-customizable.svg";
 
+// AdvanceStat component displays three feature cards under "Advanced Statistics"
 const AdvanceStat = () => {
+  // Data for each statistics card
   const statsData = [
     {
       img: brandImg,
@@ -25,6 +27,7 @@ const AdvanceStat = () => {
     },
   ];
 
+  // Different translateY positions to stagger card heights for visual appeal
   const translateClasses = [
     "md:translate-y-[-1rem]",
     "md:translate-y-[1rem]",
@@ -32,8 +35,10 @@ const AdvanceStat = () => {
   ];
 
   return (
+    // Section wrapper with max width and spacing
     <section className="max-w-[1000px] px-8 mx-auto mb-[8rem]">
-      <div className="">
+      <div>
+        {/* Title and description */}
         <div className="max-w-[500px] mb-[5rem] mx-auto text-center">
           <h2 className="font-bold text-2xl mb-3">Advanced Statistics</h2>
           <p className="text-gray-400">
@@ -42,11 +47,14 @@ const AdvanceStat = () => {
           </p>
         </div>
 
+        {/* Cards container with connecting line using pseudo-element */}
         <div
           className="relative flex flex-col md:flex-row gap-[3rem] md:gap-5 
-        
-        after:content-[''] after:absolute after:left-1/2 after:0 md:after:top-1/2 after:translate-x-[-50%] after:h-[100%] md:after:h-[5px] after:w-[5px] md:after:w-full after:bg-blue-400 after:z-[-1]"
+          after:content-[''] after:absolute after:left-1/2 after:0 md:after:top-1/2 
+          after:translate-x-[-50%] after:h-[100%] md:after:h-[5px] 
+          after:w-[5px] md:after:w-full after:bg-blue-400 after:z-[-1]"
         >
+          {/* Map through each stat item and render its card */}
           {statsData.map((stat, index) => (
             <div
               key={index}
@@ -54,9 +62,12 @@ const AdvanceStat = () => {
                 translateClasses[index] || ""
               }`}
             >
+              {/* Icon inside a circle */}
               <div className="absolute w-[70px] h-[70px] flex items-center justify-center rounded-full bg-blue-950 translate-y-[-6rem]">
                 <img src={stat.img} alt={stat.img} className="" />
               </div>
+
+              {/* Title and description */}
               <div className="flex flex-col gap-3 items-center text-center md:items-start md:text-left ">
                 <h3 className="font-bold">{stat.title}</h3>
                 <p className="text-gray-400">{stat.description}</p>
