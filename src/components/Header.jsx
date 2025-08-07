@@ -40,7 +40,7 @@ const Header = () => {
             </a>
             <a
               href="#"
-              className="bg-blue-400  py-1 px-3 text-white rounded-2xl"
+              className="bg-cyan-400 translate  hover:bg-cyan-200 py-1 px-3 text-white rounded-2xl"
             >
               Sign Up
             </a>
@@ -49,8 +49,8 @@ const Header = () => {
 
         {/* mobile nav  */}
         {menuClick && (
-          <nav className="absolute max-w-[375px] mt-[20rem] left-1/2 flex flex-col transform -translate-x-1/2 md:hidden bg-purple-950 w-[80%] text-center text-white rounded-lg gap-6 py-4 z-1">
-            <ul className="flex flex-col gap-3 border-b-[0.1px] border-gray-500 py-4 mx-4">
+          <nav className="absolute max-w-[375px] mt-[30rem] left-1/2 flex flex-col transform -translate-x-1/2 md:hidden bg-purple-950 w-[80%] text-center text-white rounded-lg gap-[3rem] py-8 z-1">
+            <ul className="flex flex-col gap-[2rem] border-b-[0.1px] border-gray-500 pb-[3rem] mx-4">
               <li>
                 <a href="#">Features</a>
               </li>
@@ -61,11 +61,11 @@ const Header = () => {
                 <a href="#">Resources</a>
               </li>
             </ul>
-            <ul className="flex flex-col gap-4 pb-4 mx-4">
+            <ul className="flex flex-col gap-[2rem] pb-4 mx-4">
               <li>
                 <a href="#">Login</a>
               </li>
-              <li className="bg-blue-400 py-2 rounded-3xl">
+              <li className="bg-cyan-400 py-3 rounded-3xl ">
                 <a href="#">Sign up</a>
               </li>
             </ul>

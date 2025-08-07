@@ -26,13 +26,13 @@ const AdvanceStat = () => {
   ];
 
   const translateClasses = [
-    "md:translate-y-[-1rem]", // index 0
-    "md:translate-y-[1rem]", // index 1
-    "md:translate-y-[3rem]", // index 2
+    "md:translate-y-[-1rem]",
+    "md:translate-y-[1rem]",
+    "md:translate-y-[3rem]",
   ];
 
   return (
-    <section className="max-w-[1000px] px-8 mx-auto py-20">
+    <section className="max-w-[1000px] px-8 mx-auto mb-[8rem]">
       <div className="">
         <div className="max-w-[500px] mb-[5rem] mx-auto text-center">
           <h2 className="font-bold text-2xl mb-3">Advanced Statistics</h2>

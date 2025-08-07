@@ -10,17 +10,17 @@ const Hero = () => {
           className="order-1 md:order-2 pb-5 translate-x-[2rem] md:translate-x-[5rem]"
           alt=""
         />
-        <div className="order-2 md:order-1 text-center md:text-start md:flex flex-col items-center md:items-start justify-enter">
+        <div className="order-2 md:order-1 text-center md:text-start md:flex flex-col items-center md:items-start justify-center">
           <h1 className="font-bold text-3xl md:text-[3rem] mb-1 md:mb-3">
             More than just shorter links
           </h1>
-          <p className="text-gray-400 md:text-[1rem] mb-[1rem]">
+          <p className="text-gray-400 md:text-[1rem] mb-[3rem]">
             Build your brand's recognition and get detailed insights on how your
             links are performing.
           </p>
           <a
             href="#"
-            className="bg-blue-400  py-1 md:py-3 px-3 md:px-6 text-white rounded-2xl md:rounded-4xl"
+            className="bg-cyan-400 hover:bg-cyan-200 py-3 md:py-3 px-3 md:px-6 text-white rounded-2xl md:rounded-4xl"
           >
             Get Started
           </a>
