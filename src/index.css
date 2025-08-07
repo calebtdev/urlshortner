@@ -12,8 +12,18 @@ body {
   background-position: center;
 }
 
+.boost-bg {
+  background-image: url("/assets/bg-boost-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 768px) {
   .shorten-bg {
     background-image: url("/assets/bg-shorten-desktop.svg");
+  }
+  .boost-bg {
+    background-image: url("/assets/bg-boost-desktop.svg");
   }
 }

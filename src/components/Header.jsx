@@ -49,7 +49,7 @@ const Header = () => {
 
         {/* mobile nav  */}
         {menuClick && (
-          <nav className="absolute max-w-[375px] mt-[20rem] left-1/2 flex flex-col transform -translate-x-1/2 md:hidden bg-purple-950 w-[80%] text-center text-white rounded-lg gap-6 py-4">
+          <nav className="absolute max-w-[375px] mt-[20rem] left-1/2 flex flex-col transform -translate-x-1/2 md:hidden bg-purple-950 w-[80%] text-center text-white rounded-lg gap-6 py-4 z-1">
             <ul className="flex flex-col gap-3 border-b-[0.1px] border-gray-500 py-4 mx-4">
               <li>
                 <a href="#">Features</a>

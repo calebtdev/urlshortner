@@ -4,10 +4,10 @@ import desshortenbg from "../assets/bg-shorten-desktop.svg";
 
 const Shortlink = () => {
   return (
-    <section className="flex items-center justify-center translate-y-[-5rem]">
-      <div className="w-[90%] md:w-[60%]">
+    <section className="flex items-center justify-center translate-y-[-5rem] max-w-[1000px] mx-auto">
+      <div className="w-[90%] md:w-[90%]">
         <div
-          className="bg-purple-950 py-[2rem] shorten-bg px-[1rem] bg-no-repeat bg-center bg-cover w-full rounded-lg mb-[2rem]"
+          className="bg-purple-950 py-[2rem] shorten-bg px-[1rem] md:px-[3rem] bg-no-repeat bg-center bg-cover w-full rounded-lg mb-[2rem]"
           //   style={{ backgroundImage: `url("${shortenbg}")` }}
           //   md:style={{ backgroundImage: `url("${desshortenbg}")` }}
         >
