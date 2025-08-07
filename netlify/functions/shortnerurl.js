@@ -64,13 +64,13 @@ export async function handler(event, context) {
     };
 
     try {
-        const response = await fetch('https://manyapis.com/account/short-url', {
+        const response = await fetch('https://api.manyapis.com/v1-get-currency?code=string', {
             method: 'POST',
             headers: headers,
             body: inputBody,
         });
 
-        const data = await response.json(); // ✅ FIXED from JSON() to json()
+        const data = await response.json();
         console.log(data);
 
         return {
