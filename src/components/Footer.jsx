@@ -52,7 +52,7 @@ const Footer = () => {
             <span className="text-white hover:text-cyan-500 transition-colors duration-300 ease-out cursor-pointer">
               Company
             </span>
-            <ul className="text-gray-400 flex  items-center md:items-start flex-col gap-2">
+            <ul className="text-gray-400 flex items-center md:items-start flex-col gap-2">
               <li className="hover:text-cyan-500 transition-colors duration-300 ease-out cursor-pointer">
                 About
               </li>
