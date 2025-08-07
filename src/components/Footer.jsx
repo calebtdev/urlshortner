@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-col items-center md:items-start md:flex-row gap-[5rem]">
-          <div className="flex flex-col items-center gap-5">
+          <div className="flex flex-col items-center  md:items-start gap-5">
             <span className="text-white hover:text-cyan-500 transition-colors duration-300 ease-out cursor-pointer">
               Features
             </span>
